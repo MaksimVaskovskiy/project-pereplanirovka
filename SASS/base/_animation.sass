@@ -1,0 +1,35 @@
+// Анимация которая поднимает кнопку на 5rem в верх
+@keyframes BtnToUp
+    0%
+        opacity: 0 
+        transform: translateY(5rem)
+
+    100%
+        opacity: 1
+        transform: translateY(0)       
+
+// Плавный наезд текста с лева на право
+@keyframes LeftToRight
+    0%
+        opacity: 0
+        transform: translateX(-10rem)
+
+    80%
+        transform: translateX(1rem)
+
+    100%
+        opacity: 1
+        transform: translateX(0)
+
+// Плавный наезд текста с права на лево
+@keyframes RightToLeft
+    0%
+        opacity: 0
+        transform: translateX(10rem)
+
+    80%
+        transform: translateX(-1rem)
+
+    100%
+        opacity: 1
+        transform: translateX(0)
